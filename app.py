@@ -195,5 +195,7 @@ def bot_loop():
         time.sleep(bekleme)
 
 
+threading.Thread(target=bot_loop, daemon=True).start()
+
 if __name__ == "__main__":
-    bot_loop()
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))    

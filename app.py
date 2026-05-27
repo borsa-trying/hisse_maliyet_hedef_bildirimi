@@ -107,7 +107,8 @@ takipler = [
     {"ad": "KOPOL", "maliyet": 6.01, "hedef": 6.48, "alt_limit": 5.73},
 
     {"ad": "EUREN", "maliyet": "almadim", "hedef": 6.90, "alt_limit": 5.05}, # yeni 
-    {"ad": "ALTNY", "maliyet": 16.17, "hedef": 18.91, "alt_limit": 15.40}, # yeni 
+    
+    {"ad": "ALTNY", "maliyet": 16.17, "hedef": 19.91, "alt_limit": 15.40}, # yeni 
 
     {"ad": "QUAGR", "maliyet": 2.71, "hedef": 2.75, "alt_limit": 2.61},
     {"ad": "CVKMD", "maliyet": 8.78, "hedef": 50.37, "alt_limit": 41.52},
